@@ -1,13 +1,14 @@
 import React from "react"
-import {Card, CardBody, CardLink, CardText, CardTitle} from "reactstrap";
+import {Card, CardBody, CardText, CardTitle} from "reactstrap";
 import styles from"./LinkSe.module.css"
+import cardStyle from "./Card.module.css"
 
 
 export const LinkSe =({title, herf, children})=>{
     return(
 
         <a href={herf} className={styles.a}>
-      <Card >
+      <Card className={cardStyle.card_hover}>
           <CardBody>
               <CardTitle >
                   {title}

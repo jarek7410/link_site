@@ -1,3 +1,4 @@
+
 const CardConfig = [
     {
         component: "sections",
@@ -29,6 +30,18 @@ const CardConfig = [
                     },
                 ]
             },
+
+            {
+                "component": "section",
+                title: "Plan zajęć 4 semestr ",
+                isOpen: true,
+                children: [
+                    {
+                        component: "img",
+                        src: "https://linki.kwasnyy.pl/plan-sem3.png",
+                    }
+                ]
+            },
             {
                 component: "section",
                 title: " Dyski ",
@@ -50,17 +63,6 @@ const CardConfig = [
                         title: "TI",
                         herf: "https://drive.google.com/drive/u/3/folders/1xWAkmxYUZa3R79IAFYYy6mzEDYiPkyFp",
                         children: "Content ze wszystkich semertrów"
-                    }
-                ]
-            },
-            {
-                component: "section",
-                title: "Plan zajęć 4 semestr ",
-                isOpen: true,
-                children: [
-                    {
-                        component: "img",
-                        src: "https://linki.kwasnyy.pl/plan-sem3.png",
                     }
                 ]
             },
