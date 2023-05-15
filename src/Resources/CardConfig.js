@@ -4,6 +4,33 @@ const CardConfig = [
         children: [
             {
                 component: "section",
+                title: "Mapy",
+                children: [
+                    {
+                        component: "section",
+                        title: "Mapa Kampusu AGH",
+                        children: [
+                            {
+                                component: "img",
+                                src: "https://linki.kwasnyy.pl/mapa_agh.jpg",
+                                title: "Mapa Kampusu AGH",
+                            },
+                        ]
+                    },
+                    {
+                        component: "section",
+                        title: "Mapa MS szachownica",
+                        children: [
+                            {
+                                component: "img",
+                                src: "https://linki.kwasnyy.pl/mapa-ms.png",
+                            },
+                        ]
+                    },
+                ]
+            },
+            {
+                component: "section",
                 title: " Dyski ",
                 children: [
                     {
@@ -29,6 +56,7 @@ const CardConfig = [
             {
                 component: "section",
                 title: "Plan zajęć 4 semestr ",
+                isOpen: true,
                 children: [
                     {
                         component: "img",
@@ -36,33 +64,7 @@ const CardConfig = [
                     }
                 ]
             },
-            {
-                component: "section",
-                title: "Mapy",
-                children: [
-                    {
-                        component: "section",
-                        title: "Mapa Kampusu AGH",
-                        children: [
-                            {
-                                component: "img",
-                                src: "https://linki.kwasnyy.pl/mapa_agh.jpg",
-                                title: "Mapa Kampusu AGH",
-                            },
-                        ]
-                    },
-                    {
-                        component: "section",
-                        title: "Mapa MS szachownica",
-                        children: [
-                            {
-                                component: "img",
-                                src: "https://linki.kwasnyy.pl/mapa-ms.png",
-                            },
-                        ]
-                    },
-                ]
-            }
+
         ]
     }
 ];

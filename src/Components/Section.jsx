@@ -1,10 +1,10 @@
-import {Button, Card, Col, Collapse, Row, Container} from "reactstrap";
+import {Button, Collapse, Row, Container} from "reactstrap";
 import React, {useState} from "react";
 import "./Section.css"
 
 
-export const Section=({title,children})=>{
-    const [isOpen, setIsOpen] = useState(false);
+export const Section=({title,children,open=false})=>{
+    const [isOpen, setIsOpen] = useState(open);
 
     const toggle = () => setIsOpen(!isOpen);
 
