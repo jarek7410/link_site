@@ -54,6 +54,30 @@
     },
     {
       "component": "section",
+      "title": "Przyjazne Linki",
+      "children": [
+        {
+          "component": "link",
+          "title": "mgr inż. Konrad Zaworski",
+          "herf": "https://zaworski.pl/",
+          "children": "hasło \"test567\"[copy]\nTODO: make it autologable"
+        },
+        {
+          "component": "link",
+          "title": "sk",
+          "herf": "#",
+          "src": "#"
+        },
+        {
+          "component": "link",
+          "title": "zieliński",
+          "herf": "#",
+          "src": "#matlab"
+        }
+      ]
+    },
+    {
+      "component": "section",
       "title": "Plan zajęć 4 semestr ",
       "isOpen": true,
       "children": [
