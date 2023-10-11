@@ -54,6 +54,39 @@
     },
     {
       "component": "section",
+      "title": "Brydz",
+      "children": [
+        {
+          "component": "link",
+          "title": "Howellki",
+          "herf": "https://emkael.info/brydz/howellki/",
+          "children": "nie zpodziewałem sie że się tak uciesze z tego"
+        },
+        {
+          "component": "section",
+          "title": "Prawo i Sedzie",
+          "children": [
+            {
+              "component": "link",
+              "title": "Prawo brydzowe",
+              "herf": "https://www.pzbs.pl/sedziowie/mpb/2017/pl/"
+            },
+            {
+              "component": "link",
+              "title": "Prawo brydzowe pdf",
+              "herf": "https://www.pzbs.pl/sedziowie/mpb/2017/mpb2017.pdf"
+            },
+            {
+              "component": "link",
+              "title": "\"Sedzie\"",
+              "herf": "https://www.pzbs.pl/sedzie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "section",
       "title": "Przyjazne Linki",
       "children": [
         {
@@ -64,8 +97,8 @@
         },
         {
           "component": "link",
-          "title": "sk",
-          "herf": "#",
+          "title": "koło",
+          "herf": "",
           "src": "#"
         },
         {
@@ -78,12 +111,12 @@
     },
     {
       "component": "section",
-      "title": "Plan zajęć 4 semestr ",
+      "title": "Plan zajęć 5 semestr ",
       "isOpen": true,
       "children": [
         {
           "component": "img",
-          "src": "https://linki.kwasnyy.pl/plan-sem3.png"
+          "src": "https://linki.kwasnyy.pl/sem5.png"
         }
       ]
     }

@@ -7,7 +7,7 @@ import cardStyle from "./Card.module.css"
 export const LinkSe =({title, herf, children})=>{
     return(
 
-        <a href={herf} className={styles.a}>
+        <a href={herf} className={styles.a} target="_blank">
       <Card className={cardStyle.card_hover}>
           <CardBody>
               <CardTitle >

@@ -33,12 +33,12 @@ const CardConfig = [
 
             {
                 "component": "section",
-                title: "Plan zajęć 4 semestr ",
+                title: "Plan zajęć 5 semestr ",
                 isOpen: true,
                 children: [
                     {
                         component: "img",
-                        src: "https://linki.kwasnyy.pl/plan-sem3.png",
+                        src: "https://linki.kwasnyy.pl/sem5.png",
                     }
                 ]
             },
